@@ -5,6 +5,7 @@
 //   - OK: genv, lenv
 //   - OK: simplify func_call
 //   - evaluate func_call
+//     -- OK: builtin
 // -------------------------
 
 const esprima = require("esprima");
@@ -166,18 +167,11 @@ function println(str) {
   return null;
 }
 
-/* -- NG --
-function println(args) {
-  console.prototype.log.apply(this, args);
-  return null;
-}
---*/
-
 function abort() {
   process.exit(1);
 }
 
-function callBulitin(func, args) {
+function callBuiltin(func, args) {
   //println('--start callBuiltin --');
   //printObj(func);
   //printObj(args);
@@ -220,7 +214,7 @@ function evaluate(tree, genv, lenv) {
 
     if (mhd[0] === 'builtin') {
       // -- call builtin funciton --
-      return callBulitin(mhd[1], args);
+      return callBuiltin(mhd[1], args);
     }
 
     // --- call user define function --
@@ -338,12 +332,12 @@ function evaluate(tree, genv, lenv) {
 // --------
 
 let genv = {
-  //'println' : ['builtin', println],
-  'println' : ['builtin', console.log],
+  'println' : ['builtin', println],
   'printObj' : ['builtin', printObj],
   'abort' : ['builtin', abort],
   //'add' : ['builtin', add],
-}
+};
+
 let lenv = {};
 
 println('--builin functions array---');
