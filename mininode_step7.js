@@ -162,6 +162,7 @@ function printObj(obj) {
   return null;
 }
 
+// -- println() for inside of this source file --
 function println(str) {
   console.log(str);
   return null;
@@ -332,10 +333,9 @@ function evaluate(tree, genv, lenv) {
 // --------
 
 let genv = {
-  'println' : ['builtin', println],
+  'println' : ['builtin', console.log],
   'printObj' : ['builtin', printObj],
   'abort' : ['builtin', abort],
-  //'add' : ['builtin', add],
 };
 
 let lenv = {};
