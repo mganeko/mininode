@@ -202,7 +202,7 @@ function abort() {
   process.exit(1);
 }
 
-function callBulitin(func, args) {
+function callBuiltin(func, args) {
   //println('--start callBuiltin --');
   //printObj(func);
   //printObj(args);
@@ -254,7 +254,7 @@ function evaluate(tree, genv, lenv) {
 
     if (mhd[0] === 'builtin') {
       // -- call builtin funciton --
-      return callBulitin(mhd[1], args);
+      return callBuiltin(mhd[1], args);
     }
 
     // ---- STEP 8 ----
