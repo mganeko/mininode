@@ -9,8 +9,11 @@
 * [Step 5: 変数を使う](https://qiita.com/massie_g/items/1e5bf8b3cca0ae08fd1c) ... 変数の宣言、代入、参照
 * [Step 6: 条件分岐と繰り返し](https://qiita.com/massie_g/items/f801692fb9b07d007285) ... ifで条件分岐、 whileで繰り返し
 * [Step 7: 組み込み関数](https://qiita.com/massie_g/items/22506a9dabbd13cee13f) ... 組み込み関数を呼び出す
-* Step 8: ユーザ定義関数 ... 自分で関数を定義できるように（予定）
-* Step 9: ブートストラップ ... ミニNode.js自身を実行してみる（願望）
+* [Step 8: ユーザ定義関数](https://qiita.com/massie_g/items/e537f14300a6113a6237) ... 自分で関数を定義できるように
+* [Step 9: 配列とハッシュ](https://qiita.com/massie_g/items/b2a94e98ff80868bedec) ... 配列とハッシュのサポートまで
+* Step 10: モジュール分割 ... モジュールを利用し、オブジェクトを回避
+
+
 
 
 ## License / ライセンス
