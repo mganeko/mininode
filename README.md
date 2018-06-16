@@ -11,7 +11,9 @@
 * [Step 7: 組み込み関数](https://qiita.com/massie_g/items/22506a9dabbd13cee13f) ... 組み込み関数を呼び出す
 * [Step 8: ユーザ定義関数](https://qiita.com/massie_g/items/e537f14300a6113a6237) ... 自分で関数を定義できるように
 * [Step 9: 配列とハッシュ](https://qiita.com/massie_g/items/b2a94e98ff80868bedec) ... 配列とハッシュのサポートまで
-* Step 10: モジュール分割 ... モジュールを利用し、オブジェクトを回避
+* [Step 10: モジュール分割](https://qiita.com/massie_g/items/1b59efb5f891b3dda05b) ... モジュールを利用し、オブジェクトを回避
+* Step 11: 無理矢理ブートストラップ ... return処理抜きでブートストラップ
+* Step 12: ひとまず完結 ... return処理も実現してブートスラップ
 
 
 
