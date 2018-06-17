@@ -20,14 +20,14 @@ module.exports = loadAndParseSrc;
 let _argIndex = 2;
 
 function loadAndParseSrc() {
-  printObj(process.argv);
+  //printObj(process.argv);
   const filename = process.argv[_argIndex];
   println('Loading src file:' + filename);
   _argIndex = _argIndex + 1;
 
   const src = loadSrcFile(filename);
   const ast =  parseSrc(src);
-  println('-- AST ---');
+  //println('-- AST ---');
   //printObj(ast);
 
   const tree = makeTree(ast);
