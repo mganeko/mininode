@@ -12,8 +12,8 @@
 * [Step 8: ユーザ定義関数](https://qiita.com/massie_g/items/e537f14300a6113a6237) ... 自分で関数を定義できるように
 * [Step 9: 配列とハッシュ](https://qiita.com/massie_g/items/b2a94e98ff80868bedec) ... 配列とハッシュのサポートまで
 * [Step 10: モジュール分割](https://qiita.com/massie_g/items/1b59efb5f891b3dda05b) ... モジュールを利用し、オブジェクトを回避
-* Step 11: 無理矢理ブートストラップ ... return処理抜きでブートストラップ
-* Step 12: ひとまず完結 ... return処理も実現してブートスラップ
+* [Step 11: 無理矢理ブートストラップ](https://qiita.com/massie_g/items/5d8d61cdbf54390d8709) ... return処理抜きでブートストラップ
+* [Step 12: ひとまず完結](https://qiita.com/massie_g/items/35555286594e1cf780e1) ... return処理も実現してブートスラップ
 
 
 
