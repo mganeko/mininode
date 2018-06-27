@@ -53,14 +53,14 @@ define i32 @main() {
   br label %BEGINWHILE
 
 BEGINWHILE:
-  %1 = load i32, i32* %v1, align 4
-  %2 = icmp slt i32 %1, 200
-  br i1 %2, label %TRUEWHILE, label %ENDWHILE
+  %t1 = load i32, i32* %v1, align 4
+  %t2 = icmp slt i32 %t1, 32
+  br i1 %t2, label %TRUEWHILE, label %ENDWHILE
 
 TRUEWHILE:
-  call void @fizzbuzz(i32 %1)
-  %3 = add nsw i32 %1, 1
-  store i32 %3, i32* %v1, align 4
+  call void @fizzbuzz(i32 %t1)
+  %t3 = add nsw i32 %t1, 1
+  store i32 %t3, i32* %v1, align 4
   br label %BEGINWHILE
 
 ENDWHILE:
