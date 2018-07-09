@@ -15,7 +15,10 @@
 * [Step 11: 無理矢理ブートストラップ](https://qiita.com/massie_g/items/5d8d61cdbf54390d8709) ... return処理抜きでブートストラップ
 * [Step 12: ひとまず完結](https://qiita.com/massie_g/items/35555286594e1cf780e1) ... return処理も実現してブートスラップ
 
+## おまけ
 
+* [Extra 1: ミニRubyの単純化Treeを実行する](https://qiita.com/massie_g/items/3a4888168bb288965393) ... ミニRubyの単純化Treeを読み込んで実行する
+* [Extra 2： 演算子を追加する](https://qiita.com/massie_g/items/d1ef41bab2f8fd7343b5) ... 否定演算子や論理演算子を追加
 
 
 ## License / ライセンス
