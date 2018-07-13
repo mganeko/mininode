@@ -242,7 +242,7 @@ function evaluate(tree, genv, lenv) {
   if (tree[0] === '==') {
     return evaluate(tree[1], genv, lenv) == evaluate(tree[2], genv, lenv);
   }
-  // ---- Extra2 for miniruby ----
+  // ---- Extra2 ----
   if (tree[0] === '!') {
     let val = ! evaluate(tree[1], genv, lenv);
     return val;
